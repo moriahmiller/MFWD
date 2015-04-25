@@ -1,0 +1,300 @@
+html, body, nav, section, div, img, ul {
+	margin: auto 0;
+	padding: 0;
+	font-family: "helvetica", sans-serif;
+}
+
+.content {
+	width: 1000px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+
+#nav-links-list {
+	float: right;
+	margin: 0px;
+
+}
+
+#nav-links-list>li{
+	list-style-type: none;
+	float: left;
+	padding-left: 68px;
+	padding-top: 60px;
+	padding-bottom: 25px;
+	font-size: 20px;
+
+}
+
+#nav-links-list>li>a{
+	text-decoration: none;
+	color: #a62915;
+}
+
+.title>li{
+	list-style-type: none;
+	float: left;
+	padding-top: 50px;
+	font-size:30px;
+	color: #a62915;
+}
+
+.main-header {
+	position: center;
+}
+
+#section-one {
+	background-color: #a62915 ;
+	height: 570px;
+	padding-top: 30px;
+
+}
+
+#info-text {
+	float: left;
+	height: 140px;
+	width: 235px;
+	padding-left: 75px;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 35px;
+
+	
+}
+
+/*sectiontwo*/
+
+.section-two {
+	padding-bottom: 100px;
+	padding-top: 40px;
+
+}
+
+#image-grid li{
+	float: left;
+	height: 140px;
+	width: 235px;
+	padding-top: 70px;
+	padding-left: 15px;
+
+
+}
+
+#thumb-image-one {
+	background-image: url("../imgs/pier_39.jpg");
+	float: left;
+	width: 235px;
+	padding-top: 70px;
+	padding-left: 15px;
+}
+
+#thumb-image-two {
+	background-image: url("../imgs/F_ward.jpg");
+	float: left;
+	width: 235px;
+	height: 235px;
+	margin-bottom: 30px;
+}
+
+#thumb-image-three {
+	background-image: url("../imgs/cable_car.jpg");
+	float: left;
+	width: 235px;
+	height: 235px;
+	background-position: -40px;
+	margin-bottom: 30px;
+}
+
+#thumb-image-four {
+	background-image: url("../imgs/Zoo.jpeg");
+	float: left;
+	width: 235px;
+	height: 235px;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+
+#thumb-image-five {
+	background-image: url("../imgs/SF.jpg");
+	float: left;
+	width: 235px;
+	height: 235px;
+	margin-top: 150px;
+	background-position: -90px -70px;
+	margin-bottom: 30px;
+
+}
+
+#thumb-image-six {
+	background-image: url("../imgs/GG_park.jpg");
+	float: left;
+	width: 235px;
+	height: 235px;
+	margin-top: 150px;
+	margin-bottom: 30px;
+
+}
+
+#left-side-text {
+	max-width: 235px;
+	float: left;
+}
+
+#left-side-big{
+	font-family: "Helvetica", sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	padding-top: 65px;
+	list-style-type: none;
+}
+
+#left-side-medium {
+	font-family: "Helvetica", sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	list-style-type: none;
+}
+
+#left-side-small {
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 25px;
+	list-style-type: none;
+}
+
+#left-side-text>button {
+	width: 110px;
+	height: 40px;
+	background-color:#908c80;
+	border: none;
+	color: #FFFFFF;
+	font-size: 12px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	float: left;
+}
+
+
+#caption-title{
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+#caption>p {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+
+
+/* Section Three*/
+
+#clearfix {
+	overflow: auto;
+}
+
+#section-three {
+	height: 250px;
+	background-color: #d03949;
+	margin-top: 800px;
+}
+
+
+#logo-one {
+	list-style-type: none;
+	float: left;
+	padding-top: 80px;
+	padding-right: 200px;
+	padding-left: 40px;
+}
+
+#logo-two {
+	list-style-type: none;
+	float: left;
+	padding-top: 80px;
+	padding-right: 200px;
+}
+
+#logo-three {
+	list-style-type: none;
+	float: left;
+	padding-top: 80px;
+}
+
+#logo-four {
+	list-style-type: none;
+	float: right;
+	padding-top: 80px;
+	padding-right: 50px;
+}
+
+/* Section Four*/
+
+#section-four {
+	height: 380px;
+	background-color: #35454b;
+}
+#centered-text {
+	list-style-type: none;
+	text-align: center;
+	color: #fff;
+}
+
+#first-line {
+	font-family: "Helvetica", sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+	padding-top: 60px;
+}
+
+#second-line {
+	font-family: "Helvetica", sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	padding-top: 12px;
+	padding-bottom: 30px;
+}
+
+#bottom-text>button {
+	height: 60px;
+	width: 180px;
+	background-color: #000;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: 40px;
+
+}
+
+/*Footer*/
+#footer {
+	height: 150px;
+	font-size: 18px;
+}
+
+#left-side {
+	float: left;
+	padding-left: 300px;  
+	padding-right: 60px;
+	padding-top: 60px;
+}
+
+#right-side {
+	float: left;
+	padding-right: 290px;
+	padding-left: 60px;
+	padding-top: 60px;
+}
+
+
+
+
